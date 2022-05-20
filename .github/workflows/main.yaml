@@ -29,6 +29,9 @@ jobs:
         run: make build
       - name: Commit new datapackage.json
         uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
       - name: Compare
         run: make compare
   validate:
