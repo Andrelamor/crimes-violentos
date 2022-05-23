@@ -1,4 +1,7 @@
 profile: data-package
+name: crimes-violentos
+title: Crimes Violentos
+owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
 resources:
   - dialect:
       delimiter: ;
