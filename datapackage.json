@@ -5,19 +5,21 @@
   "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp",
   "resources": [
     {
+      "name": "crimes-violentos",
+      "title": "Crimes Violentos",
       "dialect": {
         "delimiter": ";"
       },
       "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
-      "name": "crimes-violentos",
       "path": "data/crimes-violentos.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "Registros",
+            "title": "Registros de crimes violentos",
             "type": "integer"
           },
           {
