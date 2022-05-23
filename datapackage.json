@@ -1,8 +1,4 @@
 {
-  "name": "crimes-violentos",
-  "title": "Crimes Violentos",
-  "description": "repositório teste de dataset-template para SEJUSP",
-  "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp",
   "profile": "data-package",
   "resources": [
     {
@@ -55,13 +51,7 @@
           }
         ]
       },
-      "scheme": "file",
-      "stats": {
-        "hash": "9ebb60f3080cf4bbb429967d8b631c50",
-        "bytes": 2187983,
-        "fields": 9,
-        "rows": 33267
-      }
+      "scheme": "file"
     }
   ]
 }
